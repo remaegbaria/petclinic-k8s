@@ -5,12 +5,13 @@ this code create a deployment and service for petclinic project in kubernetes.
 
 ## Usage
 
+### To run yml file :
 ```bash
 kubectl apply -f petclinic-dep.yml 
 
 ```
 
-#### To check services:
+#### To check services :
 
 ```bash
 kubectl get services 
@@ -24,7 +25,7 @@ http://localhost:8080/
 
 ```
 
-### This should lead you to this page:
+### This should lead you to this page :
 
 ![image](https://github.com/remaegbaria/petclinic-k8s/blob/main/petclinic.png)
 
